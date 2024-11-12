@@ -1,0 +1,41 @@
+# **********************************************************
+# * spins - display 3d graphics of spins,moments,densities,*
+# * at given H and T                                       *
+# * Reference: M. Rotter PRB 79 (2009) 140405R             *
+# * mcphas version 5.4                                     *
+# **********************************************************
+# reading from file results/mcphas.mf
+#! x=1.5 y=0 T=1.5 Ha=0 Hb=0 Hc=0 n=8 spins nofatoms=8 in primitive basis nofcomponents=3 - configuration
+ 0.0000
+ 0.0000
+ 0.0000
+ 0.0000
+ 0.0000
+ 0.0000
+ 0.0000
+ 0.0000
+ 0.0000
+ 0.0000
+ 0.0000
+ 0.0000
+ 0.0000
+ 0.0000
+ 0.0000
+ 0.0000
+ 0.0000
+ 0.0000
+ 0.0000
+ 0.0000
+ 0.0000
+ 0.0000
+ 0.0000
+ 0.0000
+
+#using so1ion ...
+#end using so1ion
+#J=6
+#Axis Convention using so1ion as a module:  y||b, z||(a x b) and x normal to y and z
+#xyz .... Coordinate system of the crystal field parameters, magnetic moment
+#abc .... Crystal axes
+#Standard Interactions operator sequence  (Stevens Operators Olm imported from cfield code of Peter Hoffmann/Fabi)
+#I1,I2,I3,....= Jx(=O11(c)),Jy=(O11(s)),Jz(=O10(c)),O22(s),O21(s),O20(c),O21(c),O22(c),O33(s),...,O66(c)

@@ -1,0 +1,17 @@
+#<!--mcdisp.mcdisp.par>
+#*********************************************************************
+# mcdisp - program to calculate the dispersion of magnetic excitations
+# reference: M. Rotter et al. J. Appl. Phys. A74 (2002) 5751
+#*********************************************************************
+#!ki=99999
+#!emin=0.000000
+#!emax=100.000000
+#!calculate_magmoment_oscillation=0  creates mcdisp.qem
+#!calculate_phonon_oscillation=0  creates mcdisp.qep
+#!calculate_spinmoment_oscillation=0  creates mcdisp.qes
+#!calculate_orbmoment_oscillation=0  creates mcdisp.qeo
+#!calculate_chargedensity_oscillation=0  creates mcdisp.qee
+#!calculate_spindensity_oscillation=0  creates mcdisp.qsd
+#!calculate_orbmomdensity_oscillation=0  creates mcdisp.qod
+#!outS=1
+#!hklfile=mcdisp.hkl
